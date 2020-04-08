@@ -1,0 +1,12 @@
+torch==1.1.0
+lmdb
+pillow
+torchvision
+nltk
+natsort
+fire
+opencv-python
+Flask
+werkzeug
+flask-httpauth
+waitress
