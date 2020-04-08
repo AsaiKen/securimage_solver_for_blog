@@ -1,4 +1,4 @@
-# Securimageのソルバ
+# 会社ブログ用に作ったsecurimageのソルバ
 
 AIのモデルについては[本家](https://github.com/clovaai/deep-text-recognition-benchmark)を参照して下さい。
 
