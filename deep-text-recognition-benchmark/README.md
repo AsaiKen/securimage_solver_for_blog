@@ -2,10 +2,14 @@
 
 AIのモデルについては[本家](https://github.com/clovaai/deep-text-recognition-benchmark)を参照して下さい。
 
-事前準備
+前提条件
 ---
 
 Ubuntu 18.04
+
+事前準備
+---
+
 
 ```
 $ sudo apt-get install build-essential libssl-dev libffi-dev python3-dev
@@ -14,35 +18,6 @@ $ . venv/bin/activate
 $ pip install --upgrade pip
 $ pip install -r requirements.txt --no-cache-dir
 ```
-
-Mac mojave
-
-```
-$ sudo xcrun cc
-$ brew install libomp
-$ python3 -mvenv venv
-$ . venv/bin/activate
-$ pip install --upgrade pip
-$ pip install -r requirements.txt
-```
-
-学習済モデルを利用する場合
----
-
-Webサーバ起動
----
-
-```
-$ . venv/bin/activate
-$ python3 web/app.py
-```
-
-http://localhost:5000/ にアクセスする。
-
-学習済モデルを利用しない場合
----
-
-Ubuntu 18.04で動作確認
 
 サンプルデータの作成
 ---
